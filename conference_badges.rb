@@ -11,5 +11,8 @@ def badge_maker(name)
    "Hello, my name is #{name}."
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  attendees.each_with_index do |index, member|
+     puts "Hello, #{member}! You'll be assigned to room #{index}!"
+  end
 end
