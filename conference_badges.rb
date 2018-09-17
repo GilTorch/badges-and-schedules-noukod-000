@@ -1,5 +1,5 @@
 # Write your code here.
-def bagde_maker(array)
+def batch_bade_creator(array)
   array.each do |member|
     puts "Hello, my name is #{member}."
   end
