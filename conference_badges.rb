@@ -12,7 +12,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(attendees)
-  attendees.each_with_index do |index, member|
+  attendees.each_with_index do |member, index|
      puts "Hello, #{member}! You'll be assigned to room #{index}!"
   end
 end
