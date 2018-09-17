@@ -1,8 +1,10 @@
 # Write your code here.
 def batch_badge_creator(array)
+  array_of_messages = []
   array.each do |member|
-    puts badge_maker(member)
+    array_of_messages.push badge_maker(member)
   end
+  array_of_messages
 end
 
 def badge_maker(name)
